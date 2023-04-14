@@ -20,8 +20,8 @@ void main() {
   print("\nRUT ingresados:");
   print(rut);
 
-  nombres.sort(); te
-  rut.sort(); 
+  nombres.sort();
+  rut.sort();
 
   print("\nNombres ordenados alfabéticamente:");
   print(nombres);
