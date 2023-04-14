@@ -13,9 +13,9 @@ for i in range(5):
 print("Lista de nombres original: ", nombres)
 print("Lista de RUTs original: ", ruts)
 
-
+#alfabeticamente
 nombres.sort()
-
+#numericamente
 ruts.sort()
 
 
