@@ -1,6 +1,6 @@
 
 filas = int(input("Ingrese el numero de filas a usar:"))
-columnas = int(input("Ingrese el numero de filas a usar:"))
+columnas = int(input("Ingrese el numero de columnas a usar:"))
 
 matriz = [[0 for j in range(columnas)] for i in range(filas)]
 
@@ -35,4 +35,3 @@ for i in range(columnas):
 print("Matriz ordenada por columnas:")
 for fila in matriz:
     print(fila)
-
