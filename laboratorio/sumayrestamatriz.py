@@ -28,14 +28,14 @@ for fila in matriz2:
 
 # se suma las dos matrices
 if fila1 == fila2 and columna1 == columna2:
-    matriz_suma = []
+    suma_matriz = []
     for x in range(fila1):
         fila = []
         for y in range(columna1):
             fila.append(matriz1[x][y] + matriz2[x][y])
-        matriz_suma.append(fila)
+        suma_matriz.append(fila)
     print("Matriz suma:")
-    for fila in matriz_suma:
+    for fila in suma_matriz:
         print(fila)
 
 
@@ -57,12 +57,12 @@ for fila in matriz3:
 
 # se resta matriz sumada anteriormente y se resta con la matriz 3
 if fila3 == fila2 and columna3 == columna2:
-    matriz_resta = []
+    resta_matriz = []
     for x in range(fila3):
         fila = []
         for y in range(columna3):
-            fila.append(matriz3[x][y] - matriz_suma[x][y])
-        matriz_resta.append(fila)
+            fila.append(matriz3[x][y] - suma_matriz[x][y])
+        resta_matriz.append(fila)
     print("la matriz resultante es:")
-    for fila in matriz_resta:
+    for fila in resta_matriz:
         print(fila)
